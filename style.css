@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-color: #020617;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    background: linear-gradient(135deg, #020617, #0f172a);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: #38bdf8;
+}
+
+.hero h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.hero p {
+    max-width: 700px;
+    margin: 20px auto;
+    color: #cbd5f5;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 25px;
+    background-color: #38bdf8;
+    color: #020617;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.dark {
+    background-color: #0f172a;
+}
+
+/* SKILLS */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-box {
+    background: #020617;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* EXPERIENCE */
+.card {
+    background: #020617;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card span {
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
+
+.card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* PROJECTS */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #020617;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* IMPACT */
+.impact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.impact-grid h3 {
+    font-size: 2rem;
+    color: #38bdf8;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #020617;
+}
+.profile-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;          /* PERFECT CIRCLE */
+    margin: 20px auto;           /* CENTER HORIZONTALLY */
+    display: block;              /* REQUIRED FOR AUTO MARGIN */
+    border: 4px solid #38bdf8;
+    object-fit: cover;           /* CROPS IMAGE */
+    object-position: center top; /* ADJUST FACE POSITION */
+}
+
